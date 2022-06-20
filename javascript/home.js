@@ -146,7 +146,7 @@ favorite();
 // timer
 function countdown() {
   const timeSpan =
-    new Date("May 30,2022 00:00:00").getTime() - new Date().getTime();
+    new Date("December 30,2022 00:00:00").getTime() - new Date().getTime();
 
   // 1day = 86400000 milisec, 1hour = 3600000 milisec, 1minute = 60000 milisec
   const inputDay = Math.floor(timeSpan / 86400000);
